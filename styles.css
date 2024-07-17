@@ -107,6 +107,13 @@ body {
   font-size: 1em;
 }
 
+@media (max-width: 992px) {
+  .nav-link.selected::after {
+    width: 100%;
+    border-radius: 4px;
+  }
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .overlay-content {
