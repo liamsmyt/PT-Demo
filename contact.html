@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matt Browne PT</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Title Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Favicon links -->
+    <link rel="icon" href="favicons/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon" />
+    <!-- Optional: Other formats -->
+    <link rel="icon" href="favicons/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="favicons/apple-touch-icon.png" />
+    <!-- For Apple devices -->
+  </head>
+  <body class="bg-light">
+    <!-- Navbar to contain socials -->
+    <div class="socials-bar sticky-top">
+      <div class="centered-images">
+        <a href="https://www.facebook.com/">
+          <img
+            src="media/facebookLogo.png"
+            alt="Image 1"
+            width="50"
+            height="50"
+          />
+        </a>
+        <a href="https://x.com/?lang=en-ie">
+          <img
+            src="media/twitterLogo.png"
+            alt="Image 2"
+            width="50"
+            height="50"
+          />
+        </a>
+        <a href="https://www.instagram.com/">
+          <img
+            src="media/instagramLogo.png"
+            alt="Image 3"
+            width="50"
+            height="50"
+          />
+        </a>
+      </div>
+    </div>
+    <!-- Minimalistic Navbar -->
+    <nav class="navbar navbar-expand-lg p-0 bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="media/mbUncropped.jpg"
+            alt="Brand Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-middle ms-2 h1 fw-bold rounded"
+          />
+          <h4 class="d-inline-block mx-2 align-text-middle fw-lighter">
+            Matt Browne PT
+          </h4>
+        </a>
+        <button
+          class="navbar-toggler mx-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-2">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link selected" aria-current="page" href="contact.html"
+              >Contact Me</a
+            >
+            <a class="nav-link" href="booking.html">Bookings</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Map Element -->
+    <div class="text-center my-4">
+        <h2>Find Me</h2>
+        <p class="lead">Available at all pinned locations.</p>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6355.522649579916!2d-6.28883070294161!3d53.29911573511051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1syoga%20rathfarnham!5e0!3m2!1sen!2sie!4v1720694792783!5m2!1sen!2sie" 
+    width="100%" height="350" style="border:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <!-- Contact Element -->
+   <div class="row mx-1 mt-4">
+    <div class="col-lg-12">
+        <div class="bg-light rounded p-4 shadow">
+            <h2 class="text-center">Get in Touch</h2>
+            <p id="contact-info" class="fw-light">mbpt@gmail.com</p>
+            <p class="fw-light fst-italic">+353 838439580</p>   
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn" id="customButton">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+    <footer class="text-center py-3 footer">
+      &copy; 2024 Liam Smyth. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
